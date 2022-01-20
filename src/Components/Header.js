@@ -3,7 +3,6 @@ import "./Header.css";
 import breweriesLogoBlack from "../assets/header/breweriesLogoBlack.jpg";
 // import breweriesLogoWhite from "../assets/header/breweriesLogoWhite.jpg";
 import searchIcon from "../assets/header/search.png";
-import themeSwitchIcon from "../assets/header/theme-switch.png";
 import { Link } from "react-router-dom";
 
 function Header() {

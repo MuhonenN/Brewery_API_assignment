@@ -1,0 +1,38 @@
+.breweryCard {
+    background-color: #1c1c1c;
+    display: flex;
+    /* padding: 20px; */
+    margin: 10px;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    border-radius: 5px;
+    /* padding-bottom: 12px; */
+}
+.cardDetails {
+    height: 100%;
+    padding: 20px;
+}
+
+.breweryCard p {
+    margin: 2px;
+    padding-bottom: 8px;
+}
+
+.breweryCard h3 {
+    margin-bottom: 16px;
+}
+
+.cardButton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ccc;
+    /* bottom: 0px; */
+    color: #1c1c1c;
+    /* border: none; */
+    height: 3em;
+    border-radius: 0 0 5px 5px;
+    text-decoration: none;
+}

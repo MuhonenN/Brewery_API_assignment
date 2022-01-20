@@ -1,13 +1,13 @@
 import React from "react";
-import Brewery from "./Brewery";
-import "./Breweries.css"
+import "./Breweries.css";
+import BreweryCard from "./BreweryCard";
 
 function Breweries({ breweries }) {
     return (
         <div className="breweries">
             <>
                 {breweries.map((brewery, i) => (
-                    <Brewery key={i} brewery={brewery} />
+                    <BreweryCard key={i} brewery={brewery} />
                 ))}
             </>
         </div>

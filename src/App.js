@@ -13,7 +13,6 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
                     <Route path="/brewery/:id" element={<Brewery />}></Route>
-                    {/* <Route path="/card" element={<Card />}></Route> old brewery page*/}
                 </Routes>
             </div>
         </Router>

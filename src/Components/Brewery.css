@@ -1,19 +1,41 @@
 .brewery {
     background-color: #1c1c1c;
-    display:flex;
-    padding: 20px;
-    margin: 10px;
+    display: flex;
+    margin: auto;
     flex-direction: column;
-    height: 200px;
-    width: 300px;
-    justify-content: center;
+    height: 100%;
+    width: 60%;
     border-radius: 5px;
+    align-items: center;
 }
 
-.brewery p {
-    margin: 2px;
+.breweryDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
 }
 
-.brewery h2 {
-    margin-bottom: 10px;
+.breweryDetails p {
+    width: 60%;
+    margin: 8px;
+    padding-bottom: 8px;
+}
+
+.breweryDetails h1 {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.backButton {
+    background-color: #ccc;
+    color: #1c1c1c;
+    text-decoration: none;
+    margin: 48px;
+    height: 3em;
+    width: 12em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
