@@ -1,24 +1,25 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+// import useApiRequest from "../Hooks/apiRequest";
 import Breweries from "./Breweries";
 
-function Home() {
-    const [breweries, setBreweries] = useState([]);
+function Home({ breweries }) {
+    // const [breweries, setBreweries] = useState([]);
 
-    useEffect(() => {
-        const getBreweries = async () => {
-            const breweriesFromApi = await fetchBreweries();
-            setBreweries(breweriesFromApi);
-        };
+    // useEffect(() => {
+    //     const getBreweries = async () => {
+    //         const breweriesFromApi = await fetchBreweries();
+    //         setBreweries(breweriesFromApi);
+    //     };
 
-        getBreweries();
-    }, []);
+    //     getBreweries();
+    // }, []);
 
-    const fetchBreweries = async () => {
-        const res = await fetch(`https://api.openbrewerydb.org/breweries`);
-        const data = await res.json();
+    // const fetchBreweries = async () => {
+    //     const res = await fetch(`https://api.openbrewerydb.org/breweries`);
+    //     const data = await res.json();
 
-        return data;
-    };
+    //     return data;
+    // };
 
     // const fetchBrewery = async (id) => {
     //     const res = await fetch(

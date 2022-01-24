@@ -28,7 +28,9 @@ function Brewery() {
                 )}
                 {brewery.postal_code != null && <p>{brewery.postal_code}</p>}
             </div>
-            <Link to={`/`} className="backButton">Go Back</Link>
+            <Link to={`/`} className="backButton">
+                Go Back
+            </Link>
         </div>
     );
 }

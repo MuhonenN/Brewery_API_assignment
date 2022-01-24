@@ -2,10 +2,10 @@ import React from "react";
 import "./Header.css";
 import breweriesLogoBlack from "../assets/header/breweriesLogoBlack.jpg";
 // import breweriesLogoWhite from "../assets/header/breweriesLogoWhite.jpg";
-import searchIcon from "../assets/header/search.png";
 import { Link } from "react-router-dom";
+import Search from "./Search";
 
-function Header() {
+function Header({ searchQuery, setSearchQuery }) {
     return (
         <div className="header">
             <div className="logoContainer">
@@ -17,15 +17,7 @@ function Header() {
                     />
                 </Link>
             </div>
-            <div className="searchBar">
-                <div className="searchIconContainer">
-                    <img src={searchIcon} alt="" />
-                </div>
-                <input
-                    className="searchInput"
-                    placeholder="Name, brewery type, city..."
-                />
-            </div>
+            <Search searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
         </div>
     );
 }

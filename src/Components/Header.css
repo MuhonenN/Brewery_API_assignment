@@ -23,8 +23,11 @@
     align-items: center;
 }
 
-.searchIconContainer {
+.searchBar > button {
     margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .searchInput {
